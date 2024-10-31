@@ -29,12 +29,17 @@
         background-image: url(./images/bg.png);
         height: 401px;
       }
+
+      .back_image_2 {
+        background-image: url(./images/bg.png);
+        height: 481px;
+      }
     </style>
   </head>
   <body>
     <header>
       <div class="flex justify-center py-[10px]">
-        <div class="flex justify-between items-center w-[1400px]">
+        <div class="flex justify-between items-center w-[1400px] max-[992px]:w-[992px]">
           <div class="flex gap-[35px] items-center">
             <div>
               <img src="./images/logo.png" alt="" />
@@ -64,7 +69,7 @@
       </div>
       <div class="border-dashed border-[3px] border-gray">
         <div class="flex justify-center bg-[#00AFCC]">
-          <div class="flex w-[1400px] justify-between items-center h-[56px]">
+          <div class="flex w-[1400px] justify-between items-center h-[56px] max-[992px]:w-[992px]">
             <div class="flex gap-[50px]">
               <a class="text-[#FFFFFF] font-bold text-xl" href="#"
                 >Виды печати</a
@@ -82,21 +87,22 @@
           </div>
         </div>
         <div class="flex justify-center back_image_1 py-[33px]">
-          <div class="flex w-[1400px] justify-between">
+          <div class="flex w-[1400px] justify-between max-[992px]:gap-[20px]">
             <div>
               <img src="./images/left.png" alt="" />
             </div>
             <div>
-              <h1 class="text-[#FFFFFF] text-6xl font-semibold leading-[70px]">
-                Печатаем картинки <br />
-                для подарков с душой
+              <h1
+                class="text-[#FFFFFF] text-[52px] font-semibold leading-[70px] w-[650px] max-[992px]:w-[465px] max-[992px]:text-[44px] max-[992px]:leading-[60px]"
+              >
+                Печатаем картинки для подарков с душой
               </h1>
               <button
-                class="shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] pt-[12px] pb-[15px] px-[33px] bg-[#FF7D00] rounded-[8px] text-[#FFFFFF] text-2xl mt-[50px] hover:bg-[#FC912A]"
+                class="shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] pt-[12px] pb-[15px] px-[33px] bg-[#FF7D00] rounded-[8px] text-[#FFFFFF] text-2xl mt-[20px] hover:bg-[#FC912A]"
               >
                 Связаться с нами
               </button>
-              <div class="flex gap-[14px] mt-[80px]">
+              <div class="flex gap-[14px] mt-[100px] max-[992px]:mt-[50px]">
                 <div
                   class="rounded-full border-[5px] border-[#C4C4C4] w-[20px] h-[20px] hover:border-[#FFFFFF]"
                 ></div>
@@ -111,29 +117,35 @@
           </div>
         </div>
         <div class="flex justify-center bg-[#73E5FF] h-[233px]">
-          <div class="flex justify-between w-[1400px] pt-[35px]">
-            <div>
-              <h1 class="text-[#000000] text-[40px] leading-[54px] font-bold">
+          <div class="flex justify-between w-[1400px] pt-[35px] max-[992px]:w-[992px]">
+            <div class="max-[992px]">
+              <h1 class="text-[#000000] text-[40px] leading-[54px] font-bold max-[992px]:text-[36px] max-[992px]:leading-[49px]">
                 Мы — студия печати Fox Photo
               </h1>
               <p
-                class="text-[#000000] text-xl leading-[28px] font-medium w-[950px] mt-[15px]"
+                class="text-[#000000] text-xl leading-[28px] font-medium w-[950px] mt-[15px] max-[992px]:w-[880]"
               >
                 Мы FoxPhoto! Студия печати на одежде, посуде и аксессуарах в
                 центре Перми. У нас честные цены на печать и доставка от 100р. А
                 ещё вы можете заказать печать визиток и фото на документы.
               </p>
             </div>
-            <div class="mt-[-180px]">
-              <img src="./images/ruksak.png" alt="" />
-            </div>
+          </div>
+          <div
+            class="relative top-[-140px] w-[250px] max-[992px]:w-[250px] max-[992px]:h-[200px] max-[992px]:right-[10px]"
+          >
+            <img
+              class="max-[992px]:w-[170px] w-[200px] max-[992px]:h-[200px]"
+              src="./images/ruksak.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
     </header>
 
     <div class="flex justify-center">
-      <div class="flex justify-between w-[1400px]">
+      <div class="flex justify-between w-[1400px] max-[992px]:w-[992px]">
         <h1
           class="font-bold text-[40px] text-[#000000] leading-[54px] my-[50px]"
         >
@@ -144,7 +156,7 @@
 
     <section>
       <div class="flex justify-center mb-[100px]">
-        <div class="flex justify-between w-[1400px]">
+        <div class="grid grid-cols-4 w-[1400px] max-[992px]:w-[992px]">
           <div>
             <div class="mb-[100px]">
               <div>
@@ -393,43 +405,289 @@
     </section>
 
     <section>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1532.6603911173838!2d64.43238418743935!3d39.79979574339059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5009cf5fb0df15%3A0xf393c5cf52a8a4db!2sKarvon%20Bozor!5e0!3m2!1sen!2s!4v1730290832086!5m2!1sen!2s"
-        width="100%"
-        height="500"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      >
-      </iframe>
-      <div class="bg-[#FFFFFFB2]">
-        <h1>Как нас найти</h1>
-        <div>
-          <h4>Адрес</h4>
-          <p>
-            г. Пермь, ул. Пушкина, 66 <br />
-            вывеска «Фото, ксерокс» <br />
-            1 этаж
-          </p>
-        </div>
-        <div>
-          <p>Телефон</p>
-          <span>(342) 247-4-222</span>
-        </div>
-        <div>
-          <h4>Время работы</h4>
-          <p>
-            будни — с 11.00 до 20.00 <br />
-            выходные — с 11.00 до 18.00
-          </p>
-        </div>
-        <div>
-          <i class="fa-brands fa-square-instagram">
-            <a href="#">instagram.com/foxphotoperm</a>
-          </i>
+      <div class="relative h-[500px]">
+        <iframe
+          class="absolute z-0"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1532.6603911173838!2d64.43238418743935!3d39.79979574339059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5009cf5fb0df15%3A0xf393c5cf52a8a4db!2sKarvon%20Bozor!5e0!3m2!1sen!2s!4v1730290832086!5m2!1sen!2s"
+          width="100%"
+          height="500"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+        <div
+          class="bg-[#FFFFFFB2] absolute top-[10px] left-[10px] px-[30px] z-10"
+        >
+          <h1
+            class="text-[#000000] text-[40px] font-bold leading-[50px] mb-[40px]"
+          >
+            Как нас найти
+          </h1>
+          <div class="flex gap-[50px]">
+            <h4 class="text-[#000000] text-[20px] leading-[30px] font-semibold">
+              Адрес
+            </h4>
+            <p class="text-[#000000] text-[20px] leading-[30px] font-normal">
+              г. Пермь, ул. Пушкина, 66 <br />
+              вывеска «Фото, ксерокс» <br />
+              1 этаж
+            </p>
+          </div>
+          <div class="flex gap-[27px] my-[20px]">
+            <p class="text-[#000000] text-[20px] leading-[30px] font-semibold">
+              Телефон
+            </p>
+            <span class="text-[#000000] text-[20px] leading-[30px] font-normal"
+              >(342) 247-4-222</span
+            >
+          </div>
+          <div>
+            <h4 class="text-[#000000] text-[20px] leading-[30px] font-semibold">
+              Время работы
+            </h4>
+            <p class="text-[#000000] text-[20px] leading-[30px] font-normal">
+              будни — с 11.00 до 20.00 <br />
+              выходные — с 11.00 до 18.00
+            </p>
+          </div>
+          <div class="my-[30px] flex items-center gap-[20px]">
+            <div class="">
+              <div>
+                <i
+                  class="fa-brands fa-vk text-[#00636D] hover:text-[#2D7FA3] text-[30px]"
+                >
+                </i>
+              </div>
+              <div>
+                <i
+                  class="fa-brands fa-square-instagram text-[#00636D] hover:text-[#2D7FA3] text-[30px]"
+                >
+                </i>
+              </div>
+            </div>
+            <div class="">
+              <div>
+                <a
+                  href="#"
+                  class="text-[18px] leading-[36px] text-[#00636D] hover:underline font-normal pl-[10px]"
+                  >vk.com/foxphoto59</a
+                >
+              </div>
+              <div>
+                <a
+                  href="#"
+                  class="text-[18px] leading-[36px] text-[#00636D] hover:underline font-normal pl-[10px]"
+                  >instagram.com/foxphotoperm</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
+    <section>
+      <div class="flex justify-center">
+        <div class="flex justify-between w-[1400px] max-[992px]:w-[992px]">
+          <div class="my-[100px]">
+            <p
+              class="mb-[28px] w-[1000px] font-sans text-[16px] leading-[28.33px] font-medium max-[992px]:w-[900px]"
+            >
+              Фотосалон Fox Photo Пермь предлагает широкий спектр услуг,
+              связанных с фотографией: фото на различные виды документов,
+              реставрация фотографии, печать фотографий на профессиональной
+              фотобумаге, печать фото на холсте, нанесение Ваших изображений на
+              кружки, футболки, магниты, брелоки и т.д.
+            </p>
+            <h4
+              class="mb-[10px] font-sans text-[24px] leading-[40px] font-semibold"
+            >
+              Напечатаем ваши фотографии
+            </h4>
+
+            <p
+              class="w-[1100px] font-sans text-[16px] leading-[28.33px] font-medium max-[992px]:w-[900px]"
+            >
+              Если у Вас накопились фотографии с отпусков, праздников или просто
+              запомнившихся дней, мы предлагаем Вам не надеяться на
+              бесперебойную работу компьютера и распечатать любимые фотографии,
+              чтобы в случае поломки компьютерной техники не остаться без
+              приятных сердцу и глазу воспоминаний. Тем более, что распечатать
+              фото через интернет Пермь теперь можно, не выходя из дома или
+              офиса. Наш фотосалон предлагает Вам весьма востребованную услугу
+              среди наших клиентов – печать фото через интернет Пермь. Для того,
+              чтобы заказать фото через интернет Пермь, нужно отправить Ваши
+              фотографии нам на почту fox-photo@mail.ru, после чего Вам остается
+              лишь дождаться готовности фотографий.
+            </p>
+
+            <h4
+              class="font-sans text-[24px] leading-[40px] font-semibold mt-[40px]"
+            >
+              Сделаем одежду уникальной
+            </h4>
+            <p
+              class="w-[1100px] font-sans text-[16px] leading-[28.33px] font-medium max-[992px]:w-[900px]"
+            >
+              Мы активно развиваемся и продолжаем радовать наших клиентов
+              качественными и приятными глазу вещицами. Так, например, в
+              холодное время года у нас заказывают теплые толстовки и свитшоты с
+              надписями. Для жарких летних деньков подходят хлопковые футболки и
+              майки с любыми принтами.
+            </p>
+            <h4
+              class="font-sans text-[24px] leading-[40px] font-semibold mt-[40px]"
+            >
+              Оживим интерьер
+            </h4>
+            <p
+              class="w-[1100px] font-sans text-[16px] leading-[28.33px] font-medium max-[992px]:w-[900px]"
+            >
+              Популярная услуга — печать фото на холсте — уже давно полюбилась
+              нашим заказчикам. Холсты очень органично вписываются в интерьер, а
+              разнообразие стилей оформления фотографии будет радовать самый
+              изысканный вкус.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="flex justify-center back_image_2">
+        <div class="flex justify-between w-[1400px] py-[27px] max-[992px]:w-[992px]">
+          <div>
+            <h1
+              class="text-[#ffffff] text-[40px] leading-[54px] font-semibold mb-[25px]"
+            >
+              Оставьте сообщение
+            </h1>
+            <form>
+              <div>
+                <input
+                  type="text"
+                  placeholder="Ваше имя"
+                  class="py-[11px] pl-[17px] w-[559px] mb-[10px] text-[#666666] max-[992px]:w-[400px]"
+                />
+              </div>
+              <div>
+                <input
+                  type="number"
+                  placeholder="Контактный телефон"
+                  class="py-[11px] pl-[17px] w-[559px] mb-[10px] text-[#666666] max-[992px]:w-[400px]"
+                />
+              </div>
+              <div>
+                <textarea
+                  class="resize-none py-[11px] pl-[17px] w-[559px] mb-[25px] text-[#666666] h-[155px] max-[992px]:w-[400px]"
+                  placeholder="Сообщение"
+                ></textarea>
+              </div>
+            </form>
+            <button
+              class="text-[#FFFFFF] bg-[#FF7D00] text-2xl px-[80px] py-[12px] font-sans hover:bg-[#FC912A]"
+            >
+              Отправить
+            </button>
+          </div>
+          <div class="bg-[#ffffff] pl-[60px] w-[670px] max-[992px]:w-[450px]">
+            <h1
+              class="text-[#00636D] text-[40px] leading-[54px] font-bold mb-[32px]"
+            >
+              Контакты
+            </h1>
+            <div class="flex items-center mb-[32px]">
+              <i
+                class="fa-solid fa-phone text-[#333333] text-[34px] mr-[30px]"
+              ></i>
+              <span class="text-[#000000] text-[24px] leading-[37px]"
+                >+ 7 (342) 2 474 222
+              </span>
+            </div>
+            <div class="flex items-center mb-[32px]">
+              <i
+                class="fa-regular fa-envelope text-[#3E6E96] text-[34px] mr-[30px]"
+              ></i>
+              <span class="text-[#000000] text-[24px] leading-[37px]"
+                >fox-photo@mail.ru
+              </span>
+            </div>
+            <div class="flex items-center mb-[32px]">
+              <i
+                class="fa-brands fa-whatsapp text-[#370475] text-[34px] mr-[30px]"
+              ></i>
+              <span class="text-[#000000] text-[24px] leading-[37px]"
+                >+7 (982) 452 50 60
+              </span>
+            </div>
+            <div class="flex items-center mb-[32px]">
+              <i
+                class="fa-solid fa-location-dot text-[#E37C1D] text-[34px] mr-[30px]"
+              ></i>
+              <span class="text-[#000000] text-[24px] leading-[37px]"
+                >Пермь, ул. Пушкина, 66
+              </span>
+            </div>
+            <div class="flex gap-[22px]">
+              <a href="#">
+                <i
+                  class="fa-brands fa-square-instagram text-[#3E6E97] hover:text-[#2D7FA3] text-5xl"
+                ></i>
+              </a>
+              <a href="#">
+                <i
+                  class="fa-brands fa-vk text-[#3E6E97] hover:text-[#2D7FA3] text-5xl"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="flex justify-center bg-[#E4E4E4] pt-[31px] pb-[46px]">
+        <div class="flex justify-between w-[1400px] max-[992px]:w-[992px]">
+          <div>
+            <img src="./images/logo_footer.png" alt="" />
+            <p class="mt-[13px] mb-[24px] text-[#000000] text-base font-bold">
+              © FoxPhoto, 2018. Все права защищены
+            </p>
+            <ul class="flex gap-[23px]">
+              <li>
+                <a
+                  class="text-[#00636D] text-[18px] leading-[36px] font-semibold hover:underline"
+                  href="#"
+                  >Виды печати</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-[#00636D] text-[18px] leading-[36px] font-semibold hover:underline"
+                  href="#"
+                  >Виды печати</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-[#00636D] text-[18px] leading-[36px] font-semibold hover:underline"
+                  href="#"
+                  >Виды печати</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-[#00636D] text-[18px] leading-[36px] font-semibold hover:underline"
+                  href="#"
+                  >Виды печати</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
