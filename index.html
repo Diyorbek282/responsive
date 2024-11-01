@@ -40,39 +40,54 @@
     <header class="border border-red-500">
       <div class="flex justify-center p-1">
         <div
-          class="flex justify-between items-center min-[1400px]:w-[1400px] min-[992px]:w-[992px] md:w-[768px]"
+          class="flex justify-between items-center min-[1400px]:w-[1400px] min-[992px]:w-[992px] md:w-[768px] min-[320px]:w-[320px]"
         >
-          <div class="flex gap-[35px] items-center">
+          <div
+            class="flex gap-[35px] items-center min-[320px]:justify-between min-[320px]:gap-[8px]"
+          >
             <div>
-              <img src="./images/logo.png" alt="" />
+              <img
+                class="md:w-[246px] md:h-[90px] min-[320px]:w-[107px] min-[320px]:h-[37px]"
+                src="./images/logo.png"
+                alt=""
+              />
             </div>
             <div>
-              <p class="text-[#000000] text-xl font-semibold">
+              <p
+                class="text-[#000000] text-xl font-semibold min-[320px]:text-[14px] min-[320px]:leading-[16px]"
+              >
                 (342) 247-4-222
               </p>
-              <span class="text-base text-[#000000] font-normal"
+              <span
+                class="text-base text-[#000000] font-normal min-[320px]:text-[12px] min-[320px]:leading-[16px] min-[320px]:text-nowrap"
                 >Пермь, ул. Пушкина, 66
               </span>
             </div>
           </div>
-          <div class="flex gap-[22px]">
+          <div class="flex gap-[22px] min-[320px]:gap-[14px]">
             <a href="#">
               <i
-                class="fa-brands fa-square-instagram text-[#3E6E97] hover:text-[#2D7FA3] text-5xl"
+                class="fa-brands fa-square-instagram text-[#3E6E97] hover:text-[#2D7FA3] text-5xl min-[320px]:hidden min-[1400px]:block min-[992px]:block md:hidden block"
               ></i>
             </a>
             <a href="#">
               <i
-                class="fa-brands fa-vk text-[#3E6E97] hover:text-[#2D7FA3] text-5xl"
+                class="fa-brands fa-vk text-[#3E6E97] hover:text-[#2D7FA3] text-5xl min-[1400px]:block min-[992px]:block md:block hidden"
               ></i>
             </a>
+            <i
+              class="fa-solid fa-phone text-[#00AFCC] text-[21px] min-[320px]:block min-[1400px]:hidden min-[992px]:hidden md:hidden"
+            ></i>
+            <i
+              class="fa-solid fa-bars text-[#00AFCC] text-[21px] min-[320px]:block min-[1400px]:hidden min-[992px]:hidden md:hidden"
+            ></i>
           </div>
         </div>
       </div>
       <div class="border-dashed border-[3px] border-gray">
         <div class="flex justify-center bg-[#00AFCC] p-1">
           <div
-            class="flex min-[1400px]:w-[1400px] justify-between items-center h-[56px] min-[992px]:w-[992px] md:w-[768px]"
+            class="flex min-[1400px]:w-[1400px] justify-between items-center h-[56px] min-[992px]:w-[992px] md:w-[768px] min-[320px]:hidden"
           >
             <div class="flex gap-[50px]">
               <a class="text-[#FFFFFF] font-bold text-xl" href="#"
@@ -92,7 +107,7 @@
         </div>
         <div class="flex justify-center back_image_1 py-[33px] px-1">
           <div
-            class="flex min-[1400px]:w-[1400px] min-[1400px]:justify-between min-[992px]:gap-[20px] md:justify-center md:items-center md:gap-[20px] md:w-[768px]"
+            class="md:flex min-[320px]:p-[10px] min-[320px]:block min-[1400px]:w-[1400px] min-[1400px]:justify-between min-[992px]:gap-[20px] md:justify-center md:items-center md:gap-[20px] md:w-[768px] min-[320px]:w-[320px]"
           >
             <div>
               <img
@@ -103,17 +118,17 @@
             </div>
             <div>
               <h1
-                class="text-[#FFFFFF] min-[1400px]:text-[60px] min-[1400px]:w-[670px] font-semibold min-[1400px]:leading-[70px] min-[1400px]:w-[650px] min-[992px]:w-[465px] min-[992px]:text-[44px] min-[992px]:leading-[60px] md:text-[36px] md:leading-[49px] md:w-[300px]"
+                class="text-[#FFFFFF] min-[1400px]:text-[60px] min-[1400px]:w-[670px] font-semibold min-[1400px]:leading-[70px] min-[1400px]:w-[650px] min-[992px]:w-[465px] min-[992px]:text-[44px] min-[992px]:leading-[60px] md:text-[36px] md:leading-[49px] md:w-[300px] min-[320px]:text-[24px] min-[320px]:leading-[32px] min-[320px]:w-[250px]"
               >
                 Печатаем картинки для подарков с душой
               </h1>
               <button
-                class="shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] pt-[12px] pb-[15px] px-[33px] bg-[#FF7D00] rounded-[8px] text-[#FFFFFF] text-2xl mt-[20px] hover:bg-[#FC912A]"
+                class="shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] md:pt-[12px] md:pb-[15px] md:px-[33px] bg-[#FF7D00] rounded-[8px] text-[#FFFFFF] text-2xl mt-[20px] hover:bg-[#FC912A] min-[320px]:px-[40px] min-[320px]:py-[2px]"
               >
                 Связаться с нами
               </button>
               <div
-                class="flex gap-[14px] min-[1400px]:mt-[100px] min-[992px]:mt-[50px] md:mt-[80px]"
+                class="flex md:justify-start min-[320px]:mt-[10px] min-[320px]:justify-center gap-[14px] min-[1400px]:mt-[100px] min-[992px]:mt-[50px] md:mt-[80px]"
               >
                 <div
                   class="rounded-full border-[5px] border-[#C4C4C4] w-[20px] h-[20px] hover:border-[#FFFFFF]"
@@ -130,16 +145,16 @@
         </div>
         <div class="flex justify-center bg-[#73E5FF] h-[233px]">
           <div
-            class="flex justify-between min-[1400px]:w-[1400px] md:w-[768px] pt-[35px] min-[992px]:w-[992px] p-1"
+            class="flex justify-between min-[1400px]:w-[1400px] md:w-[768px] md:pt-[35px] min-[320px]:pt-[20px] min-[992px]:w-[992px] min-[320px]:w-320px p-1"
           >
             <div class="min-[992px]:w-992px">
               <h1
-                class="text-[#000000] min-[1400px]:text-[40px] min-[1400px]:leading-[54px] font-bold min-[992px]:text-[36px] min-[992px]:leading-[49px] md:text-[32px] md:leading-[43px]"
+                class="text-[#000000] min-[1400px]:text-[40px] min-[1400px]:leading-[54px] font-bold min-[992px]:text-[36px] md:w-[660px] min-[992px]:leading-[49px] md:text-[32px] md:leading-[43px] min-[320px]:text-[24px] min-[320px]:leading-[32px] min-[320px]:w-[288px]"
               >
                 Мы — студия печати Fox Photo
               </h1>
               <p
-                class="text-[#000000] text-xl leading-[28px] font-medium mt-[15px]"
+                class="text-[#000000] md:text-xl md:leading-[28px] font-medium mt-[15px] min-[320px]:text-[14px] min-[320px]:leading-[19px]"
               >
                 Мы FoxPhoto! Студия печати на одежде, посуде и аксессуарах в
                 центре Перми. У нас честные цены на печать и доставка от 100р. А
@@ -162,10 +177,10 @@
 
     <div class="flex justify-center p-1">
       <div
-        class="flex justify-between min-[1400px]:w-[1400px] min-[992px]:w-[992px] md:w-[768px]"
+        class="flex justify-between min-[1400px]:w-[1400px] min-[992px]:w-[992px] md:w-[768px] min-[320px]:w-[320px]"
       >
         <h1
-          class="font-bold text-[40px] text-[#000000] leading-[54px] my-[50px]"
+          class="font-bold md:text-[40px] text-[#000000] md:leading-[54px] md:my-[50px] min-[320px]:text-[24px] min-[320px]:leading-[32px] min-[320px]:my-[10px]"
         >
           На чем мы печатаем
         </h1>
@@ -175,7 +190,7 @@
     <section class="border border-red-500 p-1">
       <div class="flex justify-center mb-[100px]">
         <div
-          class="grid min-[1400px]:grid-cols-4 min-[1400px]:w-[1400px] min-[992px]:w-[992px] min-[992px]:grid-cols-4 md:grid-cols-3 md:w-[768px]"
+          class="md:grid min-[1400px]:grid-cols-4 min-[1400px]:w-[1400px] min-[992px]:w-[992px] min-[992px]:grid-cols-4 md:grid-cols-3 md:w-[768px] min-[320px]:w-[320px] min-[320px]:block"
         >
           <div>
             <div class="mb-[100px]">
@@ -184,7 +199,7 @@
               </div>
               <div>
                 <p
-                  class="text-[#000000] min-[1400px]:text-4xl min-[1400px]:leading-[50px] font-semibold min-[992px]:text-[30px] min-[992px]:leading-[40px]"
+                  class="text-[#000000] min-[1400px]:text-4xl min-[1400px]:leading-[50px] font-semibold min-[992px]:text-[30px] min-[992px]:leading-[40px] min-[320px]:text-[20px] min-[320px]:leading-[27px]"
                 >
                   Одежда
                 </p>
@@ -192,22 +207,22 @@
               <div>
                 <ul>
                   <li
-                    class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                    class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                   >
                     <a href="#">Футболки</a>
                   </li>
                   <li
-                    class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                    class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                   >
                     <a href="#">Свитшоты</a>
                   </li>
                   <li
-                    class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                    class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                   >
                     <a href="#">Толстовки</a>
                   </li>
                   <li
-                    class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                    class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                   >
                     <a href="#">Носки</a>
                   </li>
@@ -220,7 +235,7 @@
               </div>
               <div>
                 <p
-                  class="text-[#000000] min-[1400px]:text-4xl min-[1400px]:leading-[50px] font-semibold min-[992px]:text-[30px] min-[992px]:leading-[40px]"
+                  class="text-[#000000] min-[1400px]:text-4xl min-[1400px]:leading-[50px] font-semibold min-[992px]:text-[30px] min-[992px]:leading-[40px] min-[320px]:text-[20px] min-[320px]:leading-[27px]"
                 >
                   Посуда
                 </p>
@@ -228,17 +243,17 @@
               <div>
                 <ul>
                   <li
-                    class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                    class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                   >
                     <a href="#">Кружки</a>
                   </li>
                   <li
-                    class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                    class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                   >
                     <a href="#">Фляги</a>
                   </li>
                   <li
-                    class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                    class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                   >
                     <a href="#">Тарелки</a>
                   </li>
@@ -249,7 +264,7 @@
           <div>
             <div>
               <p
-                class="text-[#000000] min-[1400px]:text-4xl min-[1400px]:leading-[50px] font-semibold min-[992px]:text-[30px] min-[992px]:leading-[40px]"
+                class="text-[#000000] min-[1400px]:text-4xl min-[1400px]:leading-[50px] font-semibold min-[992px]:text-[30px] min-[992px]:leading-[40px] min-[320px]:text-[20px] min-[320px]:leading-[27px]"
               >
                 Аксессуары
               </p>
@@ -257,32 +272,32 @@
             <div>
               <ul>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Чехлы </a>
                 </li>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Брелоки </a>
                 </li>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Галстуки </a>
                 </li>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Кепки </a>
                 </li>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Сумки </a>
                 </li>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Рюкзаки</a>
                 </li>
@@ -293,7 +308,7 @@
             </div>
             <div>
               <p
-                class="text-[#000000] min-[1400px]:text-4xl min-[1400px]:leading-[50px] font-semibold min-[992px]:text-[30px] min-[992px]:leading-[40px]"
+                class="text-[#000000] min-[1400px]:text-4xl min-[1400px]:leading-[50px] font-semibold min-[992px]:text-[30px] min-[992px]:leading-[40px] min-[320px]:text-[20px] min-[320px]:leading-[27px]"
               >
                 Подарки
               </p>
@@ -301,12 +316,12 @@
             <div>
               <ul>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Подарочные наборы</a>
                 </li>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Упаковка</a>
                 </li>
@@ -323,7 +338,7 @@
             </div>
             <div>
               <p
-                class="text-[#000000] min-[1400px]:text-4xl min-[1400px]:leading-[50px] font-semibold mt-[30px] min-[992px]:text-[30px] min-[992px]:leading-[40px]"
+                class="text-[#000000] min-[1400px]:text-4xl min-[1400px]:leading-[50px] font-semibold mt-[30px] min-[992px]:text-[30px] min-[992px]:leading-[40px] min-[320px]:text-[20px] min-[320px]:leading-[27px]"
               >
                 Для дома
               </p>
@@ -331,62 +346,62 @@
             <div>
               <ul>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Холсты </a>
                 </li>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Модульные картины </a>
                 </li>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Подушки </a>
                 </li>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Фартуки </a>
                 </li>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Магниты </a>
                 </li>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Фотокамни </a>
                 </li>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Фотокристаллы </a>
                 </li>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Коврики для мыши </a>
                 </li>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Календари </a>
                 </li>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Пазлы </a>
                 </li>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Часы </a>
                 </li>
                 <li
-                  class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                  class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                 >
                   <a href="#">Новогодние сувениры</a>
                 </li>
@@ -399,7 +414,7 @@
             <div>
               <div>
                 <p
-                  class="text-[#000000] min-[1400px]:text-4xl min-[1400px]:leading-[50px] font-semibold min-[992px]:text-[30px] min-[992px]:leading-[40px]"
+                  class="text-[#000000] min-[1400px]:text-4xl min-[1400px]:leading-[50px] font-semibold min-[992px]:text-[30px] min-[992px]:leading-[40px] min-[320px]:text-[20px] min-[320px]:leading-[27px]"
                 >
                   Фотоуслуги
                 </p>
@@ -407,27 +422,27 @@
               <div>
                 <ul>
                   <li
-                    class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                    class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                   >
                     <a href="#">Фото на документы </a>
                   </li>
                   <li
-                    class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                    class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                   >
                     <a href="#">Печать фотографий </a>
                   </li>
                   <li
-                    class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                    class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                   >
                     <a href="#">Реставрация фото </a>
                   </li>
                   <li
-                    class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                    class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                   >
                     <a href="#">Фото на памятники </a>
                   </li>
                   <li
-                    class="text-[#00636D] text-lg leading-[36px] font-medium hover:underline"
+                    class="text-[#00636D] md:text-lg md:leading-[36px] font-medium hover:underline min-[320px]:text-[16px] min-[320px]:leading-[32px]"
                   >
                     <a href="#">Печать документов </a>
                   </li>
@@ -450,9 +465,11 @@
     </section>
 
     <section class="border border-red-500 p-1">
-      <div class="relative h-[500px]">
+      <div
+        class="md:relative md:h-[500px] md:w-full min-[320px]:w-[320px] min-[320px]:h-[1007px]"
+      >
         <iframe
-          class="absolute z-0"
+          class="md:absolute md:z-0"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1532.6603911173838!2d64.43238418743935!3d39.79979574339059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5009cf5fb0df15%3A0xf393c5cf52a8a4db!2sKarvon%20Bozor!5e0!3m2!1sen!2s!4v1730290832086!5m2!1sen!2s"
           width="100%"
           height="500"
@@ -463,14 +480,14 @@
         >
         </iframe>
         <div
-          class="bg-[#FFFFFFB2] absolute top-[10px] left-[10px] px-[30px] z-10"
+          class="bg-[#FFFFFFB2] md:absolute md:top-[10px] md:left-[10px] md:px-[30px] md:z-10 min-[320px]:bg-[#FFFFFFB2] min-[320px]:pt-[22px] min-[320px]:pb-32px min-[320px]:pl-[14px]"
         >
           <h1
-            class="text-[#000000] text-[40px] font-bold leading-[50px] mb-[40px]"
+            class="text-[#000000] md:text-[40px] font-bold md:leading-[50px] mb-[40px] min-[320px]:text-[24px] min-[320px]:leading-[32px]"
           >
             Как нас найти
           </h1>
-          <div class="flex gap-[50px]">
+          <div class="md:flex md:gap-[50px] min-[320px]:block">
             <h4 class="text-[#000000] text-[20px] leading-[30px] font-semibold">
               Адрес
             </h4>
@@ -480,7 +497,7 @@
               1 этаж
             </p>
           </div>
-          <div class="flex gap-[27px] my-[20px]">
+          <div class="md:flex md:gap-[27px] my-[20px] min-[320px]:block">
             <p class="text-[#000000] text-[20px] leading-[30px] font-semibold">
               Телефон
             </p>
@@ -536,7 +553,7 @@
     <section class="border border-red-500 p-1">
       <div class="flex justify-center">
         <div
-          class="flex justify-between min-[1400px]:w-[1400px] min-[992px]:w-[992px] md:w-[768px]"
+          class="flex justify-between min-[1400px]:w-[1400px] min-[992px]:w-[992px] md:w-[768px] min-[320px]:w-[320px]"
         >
           <div class="my-[100px]">
             <p
@@ -605,7 +622,7 @@
     <section class="border border-red-500 p-1">
       <div class="flex justify-center back_image_2">
         <div
-          class="flex min-[1400px]:justify-between min-[1400px]:w-[1400px] py-[27px] min-[992px]:w-[992px] md:justify-center md:gap-[20px] md:w-[768px]"
+          class="flex min-[1400px]:justify-between min-[1400px]:w-[1400px] py-[27px] min-[992px]:w-[992px] md:justify-center md:gap-[20px] md:w-[768px] min-[320px]:w-[320px]"
         >
           <div>
             <h1
@@ -701,7 +718,7 @@
     <footer class="border border-red-500 p-1">
       <div class="flex justify-center bg-[#E4E4E4] pt-[31px] pb-[46px]">
         <div
-          class="flex justify-between min-[1400px]:w-[1400px] min-[992px]:w-[992px] md:w-[768px]"
+          class="flex justify-between min-[1400px]:w-[1400px] min-[992px]:w-[992px] md:w-[768px] min-[320px]:w-[320px]"
         >
           <div>
             <img src="./images/logo_footer.png" alt="" />
